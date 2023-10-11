@@ -1,0 +1,297 @@
+.landing{
+    width: 100%;
+    min-height: 100vh;
+}
+.landing .footer{
+    position: relative;
+    margin-top: 2rem;
+    width :100%;
+    bottom: .5rem;
+    font-size: 1.05rem;
+    font-weight: 600;
+    text-align: center;
+}
+.landing .navbar .nav .nav-item{
+    margin-right: 10px;
+    border-bottom: 2px solid;
+}
+.landing .navbar .nav .nav-item .dropdown .dropdown-toggle,
+.landing .navbar .nav .nav-item .nav-link{    
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.landing .navbar .nav .nav-item .dropdown .dropdown-menu .dropdown-item{
+    font-weight: 600;
+ }
+.landing .container-fluid .row{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;   
+}
+.landing .header{
+    margin-top: 10vh;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+}
+.landing .header .header-img{
+    width: 96px;
+}
+.landing .small-header{   
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;    
+    margin-bottom: 10vh;
+    width: 100%;
+    text-align: center;
+}
+.landing .small-header .heading{  
+    padding-left: 10px; 
+    padding-right: 10px;
+    font-weight: 600;
+    text-wrap: auto;
+    text-align: center;
+}
+.landing .small-header .ldash{
+    margin-top: 10px;
+    width: 15px;
+    height: 1px;
+    border: 2px solid;
+    border-radius: 2px;
+}
+.landing .card-body{
+    width: 100%;
+    padding: 2px;
+    border-radius: 50px;
+}
+.landing .card-body.left{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: right;
+    -webkit-justify-content: right; 
+}
+.landing .card-body.right{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: left;
+    -webkit-justify-content: left; 
+}
+
+.landing .card-body.center{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center; 
+}
+.landing .card-body .link{
+    width: 100px;
+    height: 100px;
+    margin: 0.5rem;
+    border: 2px solid;
+    border-radius: 30px;
+    font-size: .95rem;
+    font-weight: 600;
+    text-align: center; 
+    text-decoration: none;
+}
+.landing .card-body .link .bi{
+    font-size:  2rem;
+}
+.landing .card-body .link:hover .bi{
+    font-size: 2.1rem;
+}
+
+.navbar.primary-nav{
+    padding-right: 2px;
+    padding-left: 2px;
+    border-bottom: 1px solid;
+}
+.navbar.primary-nav .navbar-brand .navbar-icon{
+    width: 27px;
+    height: 27px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+.navbar.primary-nav .search{
+    width: 60%;
+}
+.navbar.primary-nav .search .search-form .form-control{
+    height: 30px;
+}
+.navbar.primary-nav .search .search-form .btn{
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+    border-radius: 1px;
+}
+.navbar.primary-nav .nav .nav-item .dropdown .btn{
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+    border-radius: 2px;
+    border: 0px solid;
+}
+.navbar.primary-nav .nav .nav-item .dropdown .btn:hover,
+.navbar.primary-nav .nav .nav-item .dropdown .btn:active{
+    border: 2px solid;
+}
+.navbar.primary-nav .nav .nav-item .dropdown .dropdown-menu{
+    border: 1px solid;
+    border-radius: 2px;
+}
+.navbar.primary-nav .nav .nav-item .dropdown .dropdown-menu li{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.navbar.primary-nav .nav .nav-item .dropdown .dropdown-menu li .dropdown-item{
+    font-weight: 600;
+    border-radius: 5px;
+}
+.navbar.filters{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.navbar.filters .navbar-brand{
+    font-size: .95rem;
+    font-weight: 600;
+}
+.navbar.filters .btn.navbar-toggler{
+    border: 0px solid;
+}
+.navbar.filters .btn.navbar-toggler:hover,
+.navbar.filters .btn.navbar-toggler:active,
+.navbar.filters .btn.navbar-toggler:focus{
+    border: 2px solid;
+}
+.filters .form-group select{
+    cursor: pointer;
+}
+.filters .form-group label{
+    width: 100%;
+    padding-top: 5px;
+    font-size: .9rem;
+    font-weight: 600;
+}
+.filters .form-group .form-control{
+    align-self: left;
+    font-size: .7125rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.filters .form-group .btn{
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    font-size: .7125rem;
+    font-weight: 700;
+}
+
+.filters .nav-item{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.filters .flex-row{
+    width: fit-content;
+    padding-left: 1rem;
+}
+.filters .flex-row .column{
+    width: fit-content;
+    padding: 0px;
+    justify-content: left;
+}
+.filters{   
+    padding-left: 1.5px; 
+    padding-right: 2px; 
+    margin-bottom: 1rem;
+}
+.filters .navbar-brand{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.filters .btn.btn-primary.navbar-toggler{
+    border-width: 1px;
+}
+
+@media screen and (min-width: 1025px){
+    .landing{
+        min-height: 100vh;
+    }         
+    .landing .header{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        font-size: 3rem;
+    }    
+    .landing .header .header-img{
+        width: 72px;
+    }
+    .landing .small-header .ldash{
+        width: 25px;
+    }
+    .landing .card-body .link{
+        width: 150px;
+        height: 150px;
+        margin: 2rem;
+        border: 2px solid;
+        border-radius: 30px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-align: center; 
+        text-decoration: none;
+    }
+    .landing .card-body .link .bi{
+        font-size:  4rem;
+    }
+    .landing .card-body .link:hover .bi{
+        font-size: 4.1rem;
+    }
+    
+    .navbar.navbar.primary-nav{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .navbar.primary-nav .navbar-brand .navbar-icon{
+        width: 30px;
+        height: auto;
+    }    
+    .navbar.primary-nav .search{
+        width: auto;
+    }
+    .navbar.primary-nav .search .search-form .form-control{
+        width: 400px;
+        height: 35px;
+    }
+    .navbar.primary-nav .search .search-form .btn{
+        width: 40px;
+        height: 35px;
+        padding: 3px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .navbar.primary-nav .nav .nav-item .dropdown .btn-list{
+        width: 50px;
+    }
+    .filters{
+        padding-left: 10px;
+    }
+    .filters .form-group label{
+        width: 100%;
+        padding-top: 5px;
+        font-size: .9rem;
+        font-weight: 600;
+    }
+    .filters .form-group .form-control{
+        font-size: .85rem;
+    }
+
+    .filters .form-group .btn{
+        font-size: .85rem;
+    }
+    .filters .nav-item{
+        margin-right: 2rem;
+        margin-bottom: 0px;
+    }
+}
