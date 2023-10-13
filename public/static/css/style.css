@@ -216,6 +216,49 @@
     border-width: 1px;
 }
 
+.listings .container-fluid .row{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: left;
+    -webkit-justify-content: left;
+}
+.listings .card{
+    margin-bottom: 2rem;
+    padding: 30px 40px;
+}
+.listings .card, 
+.listings .card .card-body{
+    padding: 0px;
+    border-radius: 2px;
+}
+.listings .card .card-body .wrapper .display{
+    width: 100%;
+    height: 200px;
+    margin-bottom:.5rem;
+}
+.listings .card .card-body .wrapper .description,
+.listings .card .card-body .wrapper .location,
+.listings .card .card-body .wrapper .price{
+    margin-bottom: .25rem;
+    border-radius: 15px;
+    height: 25px;
+}
+.listings .card .card-body .wrapper .location{
+    width: 95%;
+}
+.listings .card .card-body .wrapper .price{
+    width: 90%;
+}
+.wrapper {
+    width: 0px;
+    animation: fullView 0.15s forwards linear;
+  }
+  
+@keyframes fullView {
+    100% { width: 100%; }
+  }
+  
+
 @media screen and (min-width: 1025px){
     .landing{
         min-height: 100vh;

@@ -120,3 +120,27 @@
    background-color: #3c8135;
    border-color: #3c8135;
 }
+
+
+.listings .card, 
+.listings .card .card-body{
+    border-color: transparent;
+}
+.listings .card .card-body .wrapper .display{
+    background-color: #9c9c9c;
+}
+.listings .card .card-body .wrapper .description,
+.listings .card .card-body .wrapper .location,
+.listings .card .card-body .wrapper .price{
+    background-color:  #9c9c9c;
+}
+@keyframes shimmer{
+    0% {background-position: -1000px 0}
+    100% {background-position: 1000px 0}
+}
+.shimmer {
+    animation : shimmer 2s infinite;
+    background: linear-gradient(to right, #d6d6d6 4%, #d8d8d8 25%, #e1e1e1 36%);
+    background-size: 1000px 100%;
+ }
+ 
