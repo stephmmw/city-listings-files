@@ -105,7 +105,7 @@
 }
 
 .navbar.primary-nav{
-    padding-right: 2px;
+    padding-right: 5px;
     padding-left: 2px;
     border-bottom: 1px solid;
 }
@@ -124,12 +124,17 @@
     border-radius: 2px;
 }
 .navbar.primary-nav .nav .nav-item .dropdown .dropdown-menu li{
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .navbar.primary-nav .nav .nav-item .dropdown .dropdown-menu li .dropdown-item{
     font-weight: 600;
+    border: 1px solid;
     border-radius: 5px;
+}    
+.navbar.primary-nav .nav .page-title{
+    font-size: 1.25rem;
+    font-weight: 600;
 }
 .navbar.search-nav .search{
     width: 60%;
@@ -309,6 +314,10 @@
     .navbar.primary-nav .nav .nav-item .dropdown .btn-list{
         width: 50px;
     }    
+    .navbar.primary-nav .nav .page-title{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
     .navbar.search-nav .search{
         width: auto;
     }

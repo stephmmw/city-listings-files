@@ -71,12 +71,16 @@
 }
 .navbar.primary-nav .nav .nav-item .dropdown .dropdown-menu li .dropdown-item{
     color: #fff;
+    border-color: transparent;
 }
 .navbar.primary-nav .nav .nav-item .dropdown .dropdown-menu li .dropdown-item:hover,
 .navbar.primary-nav .nav .nav-item .dropdown .dropdown-menu li .dropdown-item:active{
     color: #fff;
-    background: #295f23;
+    background: #234F1E;
     border-color:  #fff;
+}   
+.navbar.primary-nav .nav .page-title{
+    color: #fff;
 }
 .navbar.search-nav .nav.search .search-form .form-control:focus{
     border-color:#234F1E92;
