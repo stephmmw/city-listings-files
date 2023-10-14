@@ -52,19 +52,6 @@
 .navbar.primary-nav .navbar-brand .navbar-icon:focus{
     border-color: #fff;
 }
-.navbar.primary-nav .nav.search .search-form .form-control:focus{
-    border-color:#234F1E92;
-    box-shadow: -2px 1px 4px #234f1e92;
-}
-.navbar.primary-nav .nav.search .search-form .btn{
-    border-color: #fff;
-    background-color: #234F1E;
-}
-.navbar.primary-nav .nav.search .search-form .btn:hover,
-.navbar.primary-nav .nav.search .search-form .btn:active{
-    border-color: #fff;
-    background-color: #3c8135;
-}
 .navbar.primary-nav .nav .nav-item .dropdown .btn{
     color: #fff;
     background-color: transparent;
@@ -90,6 +77,19 @@
     color: #fff;
     background: #295f23;
     border-color:  #fff;
+}
+.navbar.search-nav .nav.search .search-form .form-control:focus{
+    border-color:#234F1E92;
+    box-shadow: -2px 1px 4px #234f1e92;
+}
+.navbar.search-nav .nav.search .search-form .btn{
+    border-color: #fff;
+    background-color: #234F1E;
+}
+.navbar.search-nav .nav.search .search-form .btn:hover,
+.navbar.search-nav .nav.search .search-form .btn:active{
+    border-color: #fff;
+    background-color: #3c8135;
 }
 .navbar.filters{
     border-bottom-color: #234F1E;
