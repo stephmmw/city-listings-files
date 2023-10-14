@@ -260,14 +260,89 @@
 .listings .card .card-body .wrapper .price{
     width: 90%;
 }
-.wrapper {
-    width: 0px;
-    animation: fullView 0.15s forwards linear;
-  }
   
 @keyframes fullView {
     100% { width: 100%; }
-  }
+}
+.wrapper {
+    width: 0px;
+    animation: fullView 0.15s forwards linear;
+}
+
+
+.accounts{
+    margin-bottom: 1rem;
+}
+.accounts .accounts-form{
+    padding: 5px;
+    border-top: 1px solid;
+}
+.accounts .row{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+.accounts .card{
+    margin-top: 1rem;
+}
+.accounts .card .card-header{
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+}
+.accounts .card .card-body header{
+    margin-bottom: 1rem;
+    font-size: 1.15rem;
+    font-weight: 600;
+    text-align: center;
+}
+.accounts .card .card-body .social-signup{
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+.accounts .card .card-body p{
+    text-align: center;
+}
+.accounts .card .card-body p .bi{
+    font-size: 4rem;
+}
+.accounts .card .card-body .form-group{
+    margin-bottom: 1rem;
+}
+.accounts .card .card-body .form-control{
+    font-weight: 600;
+}
+.accounts .card .card-body .input-group .btn.btn-primary,
+.accounts .card .card-body .input-group .btn.btn-primary:active{
+    
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.accounts .card .card-body .button-container{
+    text-align: center;
+}
+.accounts .card .card-body .button-container .btn.btn-primary,
+.accounts .card .card-body .button-container .btn.btn-primary:active{
+    width: 80%;
+    font-weight: 600;
+}
+.accounts .card .card-body .reset-link{
+    text-align: center;
+}
+.accounts .card .card-body .reset-link .link{
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.accounts .card .card-body .reset-link .link:hover{
+    text-decoration: underline;
+}
+.accounts .card .card-body .reset-link span{
+    font-weight: 600;
+}
   
 
 @media screen and (min-width: 1025px){
