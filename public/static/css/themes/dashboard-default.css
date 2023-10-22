@@ -1,0 +1,39 @@
+.navbar.dashboard-nav {
+    background-color:#167442;
+    border-bottom-color: #fff;
+}
+.navbar.dashboard-nav .navbar-brand .navbar-icon{
+    border-color: transparent;
+}
+.navbar.dashboard-nav .navbar-brand .navbar-icon:hover{
+    border-color: #fff;
+}
+.navbar.dashboard-nav .nav .nav-item .page-title{
+    color: #fff;
+}
+.navbar.primary-nav .nav .nav-item .dropdown .btn{
+    border-color: #fff;
+}
+.navbar.dashboard-nav .nav .nav-item .dropdown .btn .profile-icon{
+   border-color: rgb(216, 96, 36);
+}
+.navbar.dashboard-nav .nav .nav-item .dropdown .btn .profile-icon:hover{
+    border-color: rgb(166, 84, 233);
+ }
+.navbar.dashboard-nav .nav .nav-item .dropdown .dropdown-menu{
+    background: #167442;
+}
+.navbar.dashboard-nav .nav .nav-item .dropdown .dropdown-menu .dropdown-item{
+    border-color: #fff;
+    color: #fff;
+}
+.navbar.dashboard-nav .nav .nav-item .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: #16aa5b;
+}
+
+.dashboard{ 
+    background-color: #167442;
+}
+.dashboard .container-fluid .row .main{
+    background: #fff;
+}
