@@ -39,6 +39,9 @@
    color: #fff;
    border-color: #fff;
 }
+.dashboard .side-nav .nav .nav-item .nav-link:hover{
+    background: #16aa5b;
+ }
 .dashboard .container-fluid .row .main{
     background: #fff;
 }
