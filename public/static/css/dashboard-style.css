@@ -96,6 +96,10 @@
 }
 .profile .display-picture .picture{    
     border: 1.5px solid;
+    background-image: url('http://cdn2.docs/public/static/profile.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 .profile .display-picture .picture .bi{
    font-size: 4rem;
