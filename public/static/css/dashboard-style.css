@@ -85,6 +85,7 @@
     justify-content:center;
     -webkit-justify-content: center;
     width: 100%;
+    margin-top: 4rem;
 }
 .profile .display-picture .picture,
 .profile .display-picture .picture .btn{
