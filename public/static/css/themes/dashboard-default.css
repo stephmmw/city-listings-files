@@ -45,3 +45,13 @@
 .dashboard .container-fluid .row .main{
     background: #fff;
 }
+
+@keyframes shimmer{
+    0% {background-position: -1000px 0}
+    100% {background-position: 1000px 0}
+}
+.shimmer {
+    animation : shimmer 2s infinite;
+    background: linear-gradient(to right, #d6d6d6 4%, #d8d8d8 25%, #e1e1e1 36%);
+    background-size: 1000px 100%;
+}
