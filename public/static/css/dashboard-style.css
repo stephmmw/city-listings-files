@@ -86,3 +86,16 @@
     -webkit-justify-content: center;
     width: 100%;
 }
+.profile .display-picture .picture,
+.profile .display-picture .picture .btn{
+    width: 150px;
+    height: 150px;
+    padding: 0px;
+    border-radius: 100;
+}
+.profile .display-picture .picture{    
+    border: 1.5px solid;
+}
+.profile .display-picture .picture .bi{
+    width: 150px;
+}
