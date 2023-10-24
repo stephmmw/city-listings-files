@@ -58,3 +58,6 @@
 .profile .display-picture .picture{
     border-color: #dcdcdc;
 }
+.profile .display-picture .picture .bi{
+    opacity: 50%;
+}
