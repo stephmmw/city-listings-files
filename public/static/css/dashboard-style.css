@@ -41,7 +41,9 @@
     overflow-y: hidden;
     overflow-x: hidden;
 }
-
+.dashboard .side-nav .nav{
+    width:100%;
+}
 .dashboard .side-nav .nav{
     padding-top: 1rem;
 }
@@ -70,6 +72,7 @@
     width: 100%;
     min-height: 92vh;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .dashboard .profile .row{
@@ -77,15 +80,23 @@
     display: webkit-flex;
     justify-content:center;
     -webkit-justify-content: center;
-    padding-top: 2rem;
 }
-.profile .display-picture{
+.profile .display-picture-container{
     display: flex;
     display: webkit-flex;
     justify-content:center;
     -webkit-justify-content: center;
     width: 100%;
     margin-bottom: 1rem;
+}
+.profile .display-picture{
+    display: flex;
+    display: webkit-flex;
+    justify-content:center;
+    -webkit-justify-content: center;
+    min-width: 80%;
+    margin-top: 1rem;
+    padding: 10px;
 }
 .profile .display-picture .picture,
 .profile .display-picture .picture .btn{
@@ -101,7 +112,68 @@
     background-size:cover;
     background-repeat: no-repeat;
 }
-.profile .display-picture .picture .bi{
+.profile .display-picture .picture .btn{    
+    padding-top: 10px;
+}
+.profile .display-picture .picture .btn .bi{
    font-size: 4rem;
    border-radius: 100px;
+}
+.profile .display-picture .picture .hidden{
+    width :.5px;
+    height: .5px;
+    left: -100000;
+}
+.profile-details .row,
+.profile-details .row .center{
+    display: flex;
+    display: webkit-flex;
+    justify-content:center;
+    -webkit-justify-content: center;
+}
+.profile-detail-header{
+    width: 60%;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.profile-detail{
+    width:60%;
+    padding: 10px;
+    border: 1.5px solid;
+    border-radius: 2px;
+}
+.profile-detail .shimmer{
+    display: inline-block;
+    width: 80%;
+    height: 1.5rem;
+    padding: 5px;
+    border-radius: 20px;
+}
+.profile-detail .data .bi{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.profile-detail .data{    
+    margin-bottom: .5rem;
+}
+.profile-detail .username{
+    width: 100%;
+}
+.profile-detail .email{
+    width: 95%;
+}
+.profile-detail .phone{
+    width: 90%;
+}
+.change-password{
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: right;
+}
+.change-password .btn{
+    font-weight: 600;
+    border: 2px solid;
 }

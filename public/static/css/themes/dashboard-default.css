@@ -55,7 +55,6 @@
     background: linear-gradient(to right, #d6d6d6 4%, #d8d8d8 25%, #e1e1e1 36%);
     background-size: 1000px 100%;
 }
-
 .profile .display-picture .picture{
     border-color: #dcdcdc;
     box-shadow: 1px 0px 4px #dcdcdcba;
@@ -68,4 +67,24 @@
 }
 .profile .display-picture .picture .btn:hover> .bi{
     opacity: 50%;
+}
+
+.profile-detail{
+    border-color: #dcdcdcba;
+    box-shadow: 2px 2px #dcdcdcba,  1px 1px #dcdcdcba;
+}
+.profile-detail .data .bi{
+    color: #000;
+}
+
+.change-password .btn,
+.change-password .btn:active{
+    border-color: #167442;
+    background-color:#167442;
+    color: #fff;
+}
+.change-password .btn:hover{
+    border-color: #16aa5b;
+    background-color:#16aa5b;
+    color: #fff;
 }
