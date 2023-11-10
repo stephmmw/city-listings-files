@@ -88,3 +88,17 @@
     background-color:#16aa5b;
     color: #fff;
 }
+
+.modal-header{
+    background: #167442;
+    color: #fff;
+}
+.modal .modal-header .btn{
+    border-color: #fff;
+}
+.modal .modal-header .btn span{
+    color: #fff;
+}
+.error{
+    color: #fd0000;
+}

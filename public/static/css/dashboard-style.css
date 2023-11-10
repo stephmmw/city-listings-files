@@ -36,7 +36,7 @@
 
 .dashboard{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     padding: 0px;
     overflow-y: hidden;
     overflow-x: hidden;
@@ -65,7 +65,7 @@
 }
 .dashboard .container-fluid .row .side-nav{
     width: 100%;
-    height: 95vh;
+    min-height: 95vh;
     overflow-y: auto;
 }
 .dashboard .container-fluid .row .main{
@@ -166,6 +166,7 @@
 .profile-detail .phone{
     width: 90%;
 }
+
 .change-password{
     margin-bottom: 1rem;
     padding-top: 1rem;
@@ -176,4 +177,29 @@
 .change-password .btn{
     font-weight: 600;
     border: 2px solid;
+}
+
+.modal .modal-header .modal-title{
+    text-align:center;
+}
+.modal .modal-header .btn{
+    border: 1.75px solid;
+    border-radius: 20px;
+}
+.modal .modal -header .btn span{
+    font-size: 1.25px;
+}
+.modal .modal-body .form-group{
+    margin-bottom: 1rem;
+}
+.modal .modal-body .form-group .form-control{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.modal .modal-body .form-group .input-group-prepend .btn{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.modal .modal-body .form-group .button-container{
+    text-align: center;
 }
